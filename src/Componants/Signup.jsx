@@ -41,7 +41,7 @@ function Signup() {
     }
 
     axios
-      .post("http://localhost:5020/api/user/register", {
+      .post("https://dribbblewebbackend-1.onrender.com/api/user/register", {
         Name,
         userName,
         email,
