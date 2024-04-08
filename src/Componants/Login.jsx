@@ -112,6 +112,14 @@ function Login() {
                     Create an account
                   </Link>
                 </div>
+                <div className="text-center mt-6">
+                  <Link
+                    className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
+                    to="/profile"
+                  >
+                    Go to profile
+                  </Link>
+                </div>
               </form>
             </div>
           </div>
